@@ -1,4 +1,5 @@
 #Project Authors João Caldeira; Diogo Santos; Sebastião Sotto Mayor
+
 Final Grade 15/20
 
 After cloning the git repo, type in your console:  
