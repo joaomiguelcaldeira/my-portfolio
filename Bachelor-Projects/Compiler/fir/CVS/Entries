@@ -1,0 +1,11 @@
+/.cvsignore/1.2/Fri Apr 30 13:48:59 2021//
+/.gitignore/1.1/Thu Mar  4 19:31:10 2021//
+/factory.cpp/1.1/Thu Mar  4 19:31:10 2021//
+/factory.h/1.1/Thu Mar  4 19:31:10 2021//
+/fir_parser.y/1.4/Fri Apr 30 13:48:59 2021//
+/fir_scanner.h/1.1/Thu Mar  4 19:31:10 2021//
+/fir_scanner.l/1.2/Fri Apr 30 13:48:59 2021//
+D/ast////
+D/targets////
+D/usr////
+/Makefile/1.3/Sat May 22 12:24:20 2021//
