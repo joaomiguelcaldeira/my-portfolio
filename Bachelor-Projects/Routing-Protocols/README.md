@@ -1,2 +1,2 @@
-# Project Authors João Caldeira
-Final Grade 17/20.
+# Project Authors João Caldeira; Bernardo Mota
+Final Grade 19/20.
