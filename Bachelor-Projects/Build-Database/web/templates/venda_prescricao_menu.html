@@ -1,0 +1,19 @@
+<html>
+	<body>
+        <h3>Venda com prescricao</h3>
+            <form action="venda_com_prescricao" method="post">
+                    <p><input type="hidden" name="num_cedula"value="{{params.get('num_cedula')}}"/></p>
+                    <p><input type="hidden" name="num_doente"value="{{params.get('num_doente')}}"/></p>
+                    <p><input type="hidden" name="data"value="{{params.get('data')}}"/></p>
+                    <p><input type="hidden" name="substancia"value="{{params.get('substancia')}}"/></p>
+                    <p><input type="hidden" name="quant"value="{{params.get('quant')}}"/></p>
+                <p>Dados Venda</p>
+                    <p>Número de Venda: <input type="int" name="num_venda"/></p>
+                    <p>Data de Venda: <input type="text" name="data_registo"/></p>
+                    <p>Preço: <input type="int" name="preco"/></p>
+                    <p>Instituição: <input type="text" name="inst"/></p>
+                <p><input type="submit" value="Inserir"/></p>
+            </form>
+        <p><a href="voltar">voltar</a></p>
+	</body>
+<html>

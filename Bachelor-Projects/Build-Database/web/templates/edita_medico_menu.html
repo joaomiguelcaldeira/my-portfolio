@@ -1,0 +1,12 @@
+<html>
+	<body>
+        <h3>Editar medico {{ params.get('num_cedula') }}</h3>
+            <form action="editar_medico" method="post">
+                <p><input type="hidden" name="num_cedula" value="{{params.get('num_cedula')}}"/></p>
+                <p>Novo nome: <input type="text" name="nome"/></p>
+                <p>Nova Especialidade: <input type="text" name="especialidade"/></p>
+                <p><input type="submit" value="Atualizar"/></p>
+            </form>
+        <p><a href="voltar">voltar</a></p>
+	</body>
+<html>

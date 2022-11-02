@@ -1,0 +1,33 @@
+<html>
+    <title>Lista Instituições - Flask</title>
+    <body style="padding:20px">
+  {% if cursor %}
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Tipo</th>
+          <th>Número de Região</th>
+          <th>Número de Concelho</th>
+        </tr>
+      </thead>
+      <tbody>      
+        {% for record in cursor %}
+          <tr>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td>{{ record[3] }}</td>
+            <td><a href="delete_instituicao?nome={{ record[0] }}">Remover</a></td>
+            <td><a href="edita_instituicao_menu?nome={{ record[0] }}">Editar</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="nova_instituicao_menu">Inserir nova instituição</a>
+  {% else %}
+    <p> Erro: ao obter dados da base de dados!</p>
+  {% endif %}
+  <p><a href="voltar">voltar</a></p>
+</body>
+<html>

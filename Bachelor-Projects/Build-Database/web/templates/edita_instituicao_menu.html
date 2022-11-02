@@ -1,0 +1,13 @@
+<html>
+	<body>
+       <h3>Editar instituicao {{params.get('nome')}}</h3>
+        <form action="edit_instituicao" method="post">
+            <p><input type="hidden" name="nome" value="{{params.get('nome')}}"/></p>
+            <p>Tipo_novo: <input type="text" name="tipo"/></p>
+            <p>Regiao_nova: <input type="int" name="num_regiao"/></p>
+            <p>Concelho_novo: <input type="int" name="num_concelho"/></p>
+            <p><input type="submit" value="Inserir"/></p>
+        </form>
+        <p><a href="voltar">voltar</a></p>
+	</body>
+<html>

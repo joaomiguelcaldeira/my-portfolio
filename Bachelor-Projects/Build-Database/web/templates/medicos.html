@@ -1,0 +1,31 @@
+<html>
+    <title>Lista médicos - Flask</title>
+    <body style="padding:20px">
+  {% if cursor %}
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Número de Cedula</th>
+          <th>Nome</th>
+          <th>Especialidade</th>
+        </tr>
+      </thead>
+      <tbody>      
+        {% for record in cursor %}
+          <tr>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td><a href="apagar_medico?num_cedula={{ record[0] }}">Remover</a></td>
+            <td><a href="edita_medico_menu?num_cedula={{ record[0] }}">Editar</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="novo_medico_menu">Inserir novo médico</a>
+  {% else %}
+    <p> Erro: ao obter dados da base de dados!</p>
+  {% endif %}
+  <p><a href="voltar">voltar</a></p>
+</body>
+<html>

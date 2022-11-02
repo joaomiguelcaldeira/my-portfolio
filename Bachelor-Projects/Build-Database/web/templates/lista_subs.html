@@ -1,0 +1,28 @@
+<doctype html>
+    <title> Lista substâncias </title>
+    <body>
+    {% if cursor %}
+    <table border= "2px">
+        <thead>
+            <tr>
+            <th> Substância </th>
+            </tr>
+        </thead>
+    <tbody>
+    <tbody>
+    {% for record in cursor %}
+        <tr>
+        <td> {{ record[0] }} </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+{% else %}
+<p> Erro: ao obter dados da base de dados! </p>
+{% endif %}
+
+<p><a href="voltar">voltar</a></p>
+</body>
+
+
+</doctype>

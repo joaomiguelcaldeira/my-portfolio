@@ -1,0 +1,36 @@
+<html>
+    <title>Lista Prescrições - Flask</title>
+    <body style="padding:20px">
+  {% if cursor %}
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Número de Cédula</th>
+          <th>Número de Doente</th>
+          <th>Data</th>
+          <th>Substância</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>      
+        {% for record in cursor %}
+          <tr>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td>{{ record[3] }}</td>
+            <td>{{ record[4] }}</td>
+            <td><a href="delete_prescricao?num_cedula={{ record[0] }}&num_doente={{ record[1] }}&data={{ record[2] }}&substancia={{ record[3] }}">Remover</a></td>
+            <td><a href="edita_prescricao_menu?num_cedula={{ record[0] }}&num_doente={{ record[1] }}&data={{ record[2] }}&substancia={{ record[3] }}">Editar</a></td>
+            <td><a href="venda_prescricao_menu?num_cedula={{ record[0] }}&num_doente={{ record[1] }}&data={{ record[2] }}&substancia={{ record[3] }}&quant={{ record[4] }}">Venda Prescrição</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="nova_prescricao_menu">Inserir nova prescrição</a>
+  {% else %}
+    <p> Erro: ao obter dados da base de dados!</p>
+  {% endif %}
+  <p><a href="voltar">voltar</a></p>
+</body>
+<html>

@@ -1,0 +1,43 @@
+<html>
+    <title>Lista Prescrições - Flask</title>
+    <body style="padding:20px">
+  {% if cursor %}
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Número de Análise</th>
+          <th>Especialidade</th>
+          <th>Número de Cédula</th>
+          <th>Número de Doente</th>
+          <th>Data da consulta</th>
+          <th>Data de registo</th>
+          <th>Nome da Análise</th>
+          <th>Quantidade Observada</th>
+          <th>Instituição</th>
+        </tr>
+      </thead>
+      <tbody>      
+        {% for record in cursor %}
+          <tr>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td>{{ record[3] }}</td>
+            <td>{{ record[4] }}</td>
+            <td>{{ record[5] }}</td>
+            <td>{{ record[6] }}</td>
+            <td>{{ record[7] }}</td>
+            <td>{{ record[8] }}</td>
+            <td><a href="delete_analise?num_analise={{ record[0] }}">Remover</a></td>
+            <td><a href="edita_analise_menu?num_analise={{ record[0] }}">Editar</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="nova_analise_menu">Inserir nova análise</a>
+  {% else %}
+    <p> Erro: ao obter dados da base de dados!</p>
+  {% endif %}
+  <p><a href="voltar">voltar</a></p>
+</body>
+<html>

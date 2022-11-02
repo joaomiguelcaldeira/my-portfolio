@@ -1,0 +1,36 @@
+<html>
+	<title>Lista Vendas - Flask</title>
+	<body style="padding:20px">
+	{% if cursor %}
+	<table border="2px">
+	<thead>
+	<tr>
+	<th>Número de Venda</th>
+	<th>Data de Venda</th>
+	<th>Substância</th>
+	<th>Quantidade</th>
+	<th>Preço</th>
+	<th>Instituição</th>
+	</tr>
+	</thead>
+	<tbody>      
+	{% for record in cursor %}
+	<tr>
+	<td>{{ record[0] }}</td>
+	<td>{{ record[1] }}</td>
+	<td>{{ record[2] }}</td>
+	<td>{{ record[3] }}</td>
+	<td>{{ record[4] }}</td>
+	<td>{{ record[5] }}</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	{% else %}
+    <p> Erro: ao obter dados da base de dados!</p>
+  	{% endif %}
+        <p><a href="venda_farmacia">Venda sem Prescrição</a></p>
+        <p><a href="prescricoes">Venda com Prescrição</a></p>
+        <p><a href="voltar">voltar</a></p>
+	</body>
+<html>

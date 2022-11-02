@@ -1,0 +1,36 @@
+<doctype html>
+    <title> List valores glicemia </title>
+    <body>
+    {% if cursor %}
+    <table border= "2px">
+        <thead>
+            <tr>
+            <th> Número Concelho </th>
+            <th> Número de Doente com valor mínimo </th>
+            <th> Mínimo </th>
+            <th> Número de Doente com valor máximo </th>
+            <th> Máximo </th>
+            </tr>
+        </thead>
+    <tbody>
+    <tbody>
+    {% for record in cursor %}
+        <tr>
+        <td> {{ record[1] }} </td>
+        <td> {{ record[3] }} </td>
+        <td> {{ record[5] }} </td>
+        <td> {{ record[0] }} </td>
+        <td> {{ record[2] }} </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+{% else %}
+<p> Erro: ao obter dados da base de dados! </p>
+{% endif %}
+
+<p><a href="voltar">voltar</a></p>
+</body>
+
+
+</doctype>

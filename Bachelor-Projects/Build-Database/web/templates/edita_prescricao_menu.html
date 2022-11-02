@@ -1,0 +1,15 @@
+<html>
+	<body>
+       <h3>Editar Prescriçao</h3>
+        <form action="editar_prescricao" method="post">
+            <p><input type="hidden" name="num_cedula"value="{{params.get('num_cedula')}}"/></p>
+            <p><input type="hidden" name="num_doente"value="{{params.get('num_doente')}}"/></p>
+            <p><input type="hidden" name="data"value="{{params.get('data')}}"/></p>
+            <p><input type="hidden" name="substancia"value="{{params.get('substancia')}}"/></p>
+            <p>Substancia: <input type="text" name="new_substancia"/></p>
+            <p>Nova quantidade: <input type="int" name="quant"/></p>
+            <p><input type="submit" value="Editar"/></p>
+        </form>
+        <p><a href="voltar">voltar</a></p>
+	</body>
+<html>
