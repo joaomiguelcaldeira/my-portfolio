@@ -1,36 +1,7 @@
-# My-Portfolio
+# Featured Projects
 
-### 1st Year
-| Subject                                        | Language(s)                  |    Name                  |
-| ---------------------------------------------- | ---------------------------- | -------------------------|
-| Foundations of Programming                     | Python                       |                          |
-| Introduction to Computer Architecture          | P3 Assembly                  |                          |
-| Logic for Programming                          | Prolog                       |                          |
-| Introduction to Algorithms and Data Structures | C                            |                          |
-| Introduction to Algorithms and Data Structures | C                            |                          |
-<br/>
+## Grade Predictor
 
-### 2nd Year
-| Subject                                        | Language(s)                  |  Name                    |
-| ---------------------------------------------- | ---------------------------- | -------------------------|
-| Object-Oriented Programming                    | Java                         | Library Manager          |
-| Operating Systems                              | C                            | Técnico File System      |
-| Theory of Computation                          | Turing Machine               | Universal Turing Machine |
-| Analysis and Synthesis of Algorithms           | C                            | Grades Predictor         |
-| Analysis and Synthesis of Algorithms           | C                            | Citizens Supermarkets    |
-| Human-Computer Interaction                     | Figma                        | Urban Mobility App       |
-| Human-Computer Interaction                     | Processing 3                 | Target Selection         |
-| Human-Computer Interaction                     | Processing 3                 | Smartwatch Text Entry    |
+This project is a program made in C++ to predict the grade of a student’s project based on the grade of the student’s test by also knowing that students frequently exchange project solutions between them. This solution uses a graph to describe the relations between students, and uses a DFS to search for the highest grade in a circle of friends and apply it’s spread between them. This is the same as searching for the strongly connected components in the graph and searching for the highest grade in each SCC to get the best prediction of the students grades. The file "relatorio.pdf" has more in depth details of the proposed solution by the student. The file "p1.pdf" has more in depth details of the problem.
 
-<br/>
-
-### 3rd Year
-| Subject                                        | Language(s)                  |  Name                    |
-| ---------------------------------------------- | ---------------------------- | -------------------------|
-| Databases                                      | PostgreSQL/Python Flask/HTML |                          |
-| Computer Networks                              | C                            |                          |
-| Artificial Intelligence                        | Python                       |                          |
-| Systems Analysis and Modeling                  | ArchiMate/BPMN/UML/SysML     |                          |
-| Compilers                                      | C/C++                        |                          |
-| Software Engineering                           | PostgreSQL/Spring Boot/Vue   |                          |
-| Distributed Systems                            | Java/gRPC                    |                          |
+Final Grade 20/20.
