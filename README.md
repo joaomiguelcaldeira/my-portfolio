@@ -1,13 +1,13 @@
 # My-Portfolio
 
 ### 1st Year
-| Subject                                        | Language(s)                  |  Name                                                            |
+| Subject                                        | Language(s)                  |    Name                                                          |
 | ---------------------------------------------- | ---------------------------- | -----------------------------------------------------------------|
 | Foundations of Programming                     | Python                       |                                                                  |
 | Introduction to Computer Architecture          | P3 Assembly                  |                                                                  |
 | Logic for Programming                          | Prolog                       |                                                                  |
-| Introduction to Algorithms and Data Structures | C                            |                |
-| Introduction to Algorithms and Data Structures | C                            | 
+| Introduction to Algorithms and Data Structures | C                            |                                                                  |
+| Introduction to Algorithms and Data Structures | C                            |                                                                  |
 <br/>
 
 ### 2nd Year
