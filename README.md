@@ -26,10 +26,14 @@ This project is a program made in C++ with the objective to calculate the maximu
 
 ## [Introduction to Algorithms and Data Structures - Logistics System - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)
 
+This project is a program made in C with the objective to develop a logistics system that holds products and orders. The person interacts with the program through the command line giving certain commands to do specific actions. 
+
 **No Report**
 ### **Final Grade 20/20.**
 
-## [Introduction to Algorithms and Data Structures -  Friendly Football Games Data Management - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Management-System)
+## [Introduction to Algorithms and Data Structures -  Friendly Football Games Data Management - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects)
+
+This project is a program made in C with the objective to develop a database management system of friendly football games. The system holds a database of the teams and games. The person interacts with the program through the command line giving certain commands to do specific actions. It is used a hashing table and a double linked list to store and search the data efficiently.
 
 **No Report**
 ### **Final Grade 20/20.**
