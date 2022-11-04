@@ -24,3 +24,14 @@ This project is a program made in C++ with the objective to calculate the maximu
 **[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Decision-Trees/tg001.pdf)**
 ### **Final Grade 20/20.**
 
+## [Introduction to Algorithms and Data Structures - Logistics System - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)
+
+**No Report**
+### **Final Grade 20/20.**
+
+## [Introduction to Algorithms and Data Structures -  Friendly Football Games Data Management - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Management-System)
+
+**No Report**
+### **Final Grade 20/20.**
+
+
