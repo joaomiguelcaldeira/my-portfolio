@@ -1,5 +1,17 @@
 # Featured Projects
 
+## [Artificial Intelligence - Ricochet Robots - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots)
+
+
+**[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Ricochet-Robots/relatorio%20ia.pdf)**
+### **Final Grade 19/20.**
+
+## [Artificial Intelligence - Decision Trees - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Decision-Trees)
+
+
+**[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Decision-Trees/tg001.pdf)**
+### **Final Grade 20/20.**
+
 ## [Analysis and Synthesis of Algorithms - Grade Predictor - C++](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Grade-Predictor)
 
 This project is a program made in C++ to predict the grade of a student’s project based on the grade of the student’s test by also knowing that students frequently exchange project solutions between them. This solution uses a graph to describe the relations between students, and uses a DFS to search for the highest grade in a circle of friends and apply it’s spread between them. This is the same as searching for the strongly connected components in the graph and searching for the highest grade in each SCC to get the best prediction of the students grades.
@@ -14,18 +26,6 @@ This project is a program made in C++ with the objective to calculate the maximu
 **[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Maximum-Flow-COVID-19/relatorio.pdf)**
 ### **Final Grade 19/20.**
 
-## [Artificial Intelligence - Ricochet Robots - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots)
-
-
-**[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Ricochet-Robots/relatorio%20ia.pdf)**
-### **Final Grade 19/20.**
-
-## [Artificial Intelligence - Decision Trees - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Decision-Trees)
-
-
-**[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Decision-Trees/tg001.pdf)**
-### **Final Grade 20/20.**
-
 ## [Introduction to Algorithms and Data Structures - Logistics System - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)
 
 This project is a program made in C with the objective to develop a logistics system that holds products and orders. The person interacts with the program through the command line giving certain commands to do specific actions. 
@@ -39,5 +39,24 @@ This project is a program made in C with the objective to develop a database man
 
 **No Report**
 ### **Final Grade 20/20.**
+**1st Year**
+- Foundations of Programming                      Python                       
+- Introduction to Computer Architecture           P3 Assembly                  
+- Logic for Programming                           Prolog            
+- Introduction to Algorithms and Data Structures  C                  
 
+**2nd Year**
+- Object-Oriented Programming                     Java                         
+- Operating Systems                               C                            
+- Theory of Computation                           Turing Machine              
+- Analysis and Synthesis of Algorithms            C++                                                      
+- Human-Computer Interaction                      Figma/Processing 3                      
 
+**3rd Year**
+- Databases                                       PostgreSQL/Python Flask/HTML 
+- Computer Networks                               C                            
+- Artificial Intelligence                         Python                      
+- Systems Analysis and Modeling                   ArchiMate/BPMN/UML/SysML     
+- Compilers                                       C/C++                        
+- Software Engineering                            PostgreSQL/Spring Boot/Vue   
+- Distributed Systems                             Java/gRPC                    
