@@ -40,23 +40,23 @@ This project is a program made in C with the objective to develop a database man
 **No Report**
 ### **Final Grade 20/20.**
 **1st Year**
-- Foundations of Programming                      Python                       
-- Introduction to Computer Architecture           P3 Assembly                  
-- Logic for Programming                           Prolog            
-- Introduction to Algorithms and Data Structures  C                  
+- Foundations of Programming                      - Python                       
+- Introduction to Computer Architecture           - P3 Assembly                  
+- Logic for Programming                           - Prolog            
+- Introduction to Algorithms and Data Structures  - C                  
 
 **2nd Year**
-- Object-Oriented Programming                     Java                         
-- Operating Systems                               C                            
-- Theory of Computation                           Turing Machine              
-- Analysis and Synthesis of Algorithms            C++                                                      
-- Human-Computer Interaction                      Figma/Processing 3                      
+- Object-Oriented Programming                     - Java                         
+- Operating Systems                               - C                            
+- Theory of Computation                           - Turing Machine              
+- Analysis and Synthesis of Algorithms            - C++                                                      
+- Human-Computer Interaction                      - Figma/Processing 3                      
 
 **3rd Year**
-- Databases                                       PostgreSQL/Python Flask/HTML 
-- Computer Networks                               C                            
-- Artificial Intelligence                         Python                      
-- Systems Analysis and Modeling                   ArchiMate/BPMN/UML/SysML     
-- Compilers                                       C/C++                        
-- Software Engineering                            PostgreSQL/Spring Boot/Vue   
-- Distributed Systems                             Java/gRPC                    
+- Databases                                       - PostgreSQL/Python Flask/HTML 
+- Computer Networks                               - C                            
+- Artificial Intelligence                         - Python                      
+- Systems Analysis and Modeling                   - ArchiMate/BPMN/UML/SysML     
+- Compilers                                       - C/C++                        
+- Software Engineering                            - PostgreSQL/Spring Boot/Vue   
+- Distributed Systems                             - Java/gRPC                    
