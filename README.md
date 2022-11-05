@@ -8,12 +8,14 @@ The projects and fields of Computer Science that I enjoyed the most.
 
 ## [Artificial Intelligence - Ricochet Robots - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots)
 
+This project is a program made in Python to solve the game [Ricochet-Robots](https://en.wikipedia.org/wiki/Ricochet_Robot) in the least amount of plays possible in the quickest time. The program consists of a program that builds a structure that will store the board and its' components (Robots and Walls), and will search the solution in a search tree using a given algorithm. To reach the best solution, various algorithms were tested and the results concluded that the best algorithm for this problem was the RBFS (Recursive Best First Search). However the project author's are aware that there can be a better solution using a better heuristic with more information, in which other algorithms would performe better over the RBFS, that has some limitations. For instance, with a quality heuristic the A* algorithm would perform better than the RBFS, having a low branching factor.
 
 **[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Ricochet-Robots/relatorio%20ia.pdf)**
 ### **Final Grade 19/20.**
 
 ## [Artificial Intelligence - Decision Trees - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Decision-Trees)
 
+This project is a program in Python to study Decision Trees. The intent of the program is to build a decision tree with a given data while optimizing the tree itself and solution. The DTL algorithm was used to learn and deduct the decision tree from the data. However this algorithm has some limitations, namely the Overfitting problem and dealing with data noise. The presented program dealt with this algorithm limitations by implementing decision tree pruning, using the early-stop technique to deal with data noise and cross validation to deal with Overfitting. 
 
 **[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Decision-Trees/tg001.pdf)**
 ### **Final Grade 20/20.**

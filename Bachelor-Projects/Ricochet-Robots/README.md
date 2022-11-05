@@ -1,2 +1,4 @@
 # Project Authors João Caldeira; João Cardoso
+This project is a program made in Python to solve the game [Ricochet-Robots](https://en.wikipedia.org/wiki/Ricochet_Robot) in the least amount of plays possible in the quickest time. The program consists of a program that builds a structure that will store the board and its' components (Robots and Walls), and will search the solution in a search tree using a given algorithm. To reach the best solution, various algorithms were tested and the results concluded that the best algorithm for this problem was the RBFS (Recursive Best First Search). However the project author's are aware that there can be a better solution using a better heuristic with more information, in which other algorithms would performe better over the RBFS, that has some limitations. For instance, with a quality heuristic the A* algorithm would perform better than the RBFS, having a low branching factor.
+
 Final Grade 19/20.
