@@ -47,6 +47,9 @@ This project is a program made in C with the objective to develop a database man
 
 **No Report**
 ### **Final Grade 20/20.**
+
+**Bachelor Projects**
+
 **1st Year**
 - Foundations of Programming                      - Python                          - [Hello-Quantum](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Hello-Quantum)                       
 - Introduction to Computer Architecture           - P3 Assembly                  
@@ -68,4 +71,10 @@ This project is a program made in C with the objective to develop a database man
 - Compilers                                       - C/C++                           - [Compiler](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Compiler)                        
 - Software Engineering                            - PostgreSQL/Spring Boot/Vue   
 - Distributed Systems                             - Java/gRPC
-- Computer Graphics                               - JavaScript                      - [RocketShip](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/RocketShip)                    
+- Computer Graphics                               - JavaScript                      - [RocketShip](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/RocketShip)
+
+**Masters Projects**
+
+- Business Process Engineering and Technology   - Excel/BPMN                        - [Case-Study](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Business-Process-Engineering-Technology)
+
+- Large Scale Systems Engineering               - Docker/Shell                      - [Zookeeper-Analysis](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Large-Scale-Systems-Engineering)
