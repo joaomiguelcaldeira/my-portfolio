@@ -76,5 +76,6 @@ This project is a program made in C with the objective to develop a database man
 **Masters Projects**
 
 - Business Process Engineering and Technology   - Excel/BPMN                        - [Case-Study](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Business-Process-Engineering-Technology)
-
 - Large Scale Systems Engineering               - Docker/Shell                      - [Zookeeper-Analysis](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Large-Scale-Systems-Engineering)
+- Performance Evaluation and Dimensioning of Networks and Systems   - R
+- Information Systems Project Management    - BPMN/MSProject
