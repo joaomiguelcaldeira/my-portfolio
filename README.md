@@ -1,5 +1,11 @@
-# Featured Projects
+# About Me
+João Caldeira 22 years old, Computer Science student pursuing a Master's Degree. [GitHub](https://github.com/joaomiguelcaldeira)
 
+** Main Skills: Python, C++, C, Java, SQL, BPMN **
+
+# Featured Projects
+The projects and fields of Computer Science that I enjoyed the most.
+ 
 ## [Artificial Intelligence - Ricochet Robots - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots)
 
 
