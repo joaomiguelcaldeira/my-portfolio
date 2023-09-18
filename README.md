@@ -52,12 +52,11 @@ This project is a program made in C with the objective to develop a database man
 
 - Business Process Engineering and Technology   - Excel/BPMN                        - [Case-Study](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Business-Process-Engineering-Technology)
 - Large Scale Systems Engineering               - Docker/Shell                      - [Zookeeper-Analysis](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Large-Scale-Systems-Engineering)
+- Advanced Algorithms - C                                                           - [Meldable-Heaps](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Meldable-Heaps) / [Navy-Network](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Navy-Network) / [Circular-String-Linearization](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Circular-String-Linearization)
 - Performance Evaluation and Dimensioning of Networks and Systems   - R
 - Information Systems Project Management    - BPMN/MSProject
 - Autonomous Agents and MultiAgent Systems  - Python
 - Cloud Computing and Virtualization - Java/AWS/Shell
-- Advanced Algorithms - C                                                           - [Meldable-Heaps](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Meldable-Heaps) / [Navy-Network](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Navy-Network) / [Circular-String-Linearization](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Circular-String-Linearization)
-- Advanced Programming - Julia
 - Data and Information Systems Management - MySQL
 
 **Bachelor Projects**
@@ -67,20 +66,20 @@ This project is a program made in C with the objective to develop a database man
 - Computer Networks                               - C                               - [Routing-Protocols](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Routing-Protocols)                            
 - Artificial Intelligence                         - Python                          - [Ricochet-Robots](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots) / [Decision-Trees](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Decision-Trees)                      
 - Systems Analysis and Modeling                   - ArchiMate/BPMN/UML/SysML        - [System-Modelling](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/System-Modelling)     
-- Compilers                                       - C/C++                           - [Compiler](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Compiler)                        
+- Compilers                                       - C/C++                           - [Compiler](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Compiler)
+- Computer Graphics                               - JavaScript                      - [RocketShip](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/RocketShip)                        
 - Software Engineering                            - PostgreSQL/Spring Boot/Vue   
 - Distributed Systems                             - Java/gRPC
-- Computer Graphics                               - JavaScript                      - [RocketShip](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/RocketShip)
 
 **2nd Year**
+- Analysis and Synthesis of Algorithms            - C++                             - [Grade-Predictor](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Grade-Predictor) / [Maximum-Flow-COVID-19](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Maximum-Flow-COVID-19)                                                      
+- Human-Computer Interaction                      - Figma/Processing 3              - [SmartWatch-Writting](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/SmartWatch-Writting) / [Target-Aim](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Target-Aim)
 - Object-Oriented Programming                     - Java                            - [Library-Manager](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Library-Manager)                         
 - Operating Systems                               - C                            
 - Theory of Computation                           - Turing Machine            
-- Analysis and Synthesis of Algorithms            - C++                             - [Grade-Predictor](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Grade-Predictor) / [Maximum-Flow-COVID-19](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Maximum-Flow-COVID-19)                                                      
-- Human-Computer Interaction                      - Figma/Processing 3              - [SmartWatch-Writting](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/SmartWatch-Writting) / [Target-Aim](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Target-Aim)
 
 **1st Year**
-- Foundations of Programming                      - Python                          - [Hello-Quantum](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Hello-Quantum)                       
+- Foundations of Programming                      - Python                          - [Hello-Quantum](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Hello-Quantum)
+- Introduction to Algorithms and Data Structures  - C                               - [Friendly-Football-Games-Data-Management](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Friendly%20Football%20Games%20Data%20Management) / [Logistics-System](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)                       
 - Introduction to Computer Architecture           - P3 Assembly                  
-- Logic for Programming                           - Prolog            
-- Introduction to Algorithms and Data Structures  - C                               - [Friendly-Football-Games-Data-Management](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Friendly%20Football%20Games%20Data%20Management) / [Logistics-System](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)                                        
+- Logic for Programming                           - Prolog                                                    
