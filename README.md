@@ -6,6 +6,23 @@ João Caldeira 23 years old, Computer Science student pursuing a Master's Degree
 # Featured Projects
 The projects and fields of Computer Science that I enjoyed the most.
 
+## [Advanced Algorithms - Circular String Linearization - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Circular-String-Linearization)
+
+Implementation of a Suffix Tree Data Structure to find the smallest lexicographic cyclic rotation.
+This is achieved by building the Suffix Tree with the given string repeated one time. So if String = "S" the Suffix Tree is built with "SS".
+Then we traverse the Suffix Tree by the smallest lexicographic rule until we reach a depth that equals the initial String "S" length.
+
+**No Report**
+### **Final Grade 20/20.**
+
+## [Advanced Algorithms - Navy Network - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Masters-Projects/Navy-Network)
+
+A given transportation network problem is given with the objective of maximum connection at the lowest cost possible.
+The solution presented implements the Kruskal Algorithm with Sorting and Union-Find by ranks structure to solve this problem as Minimum Spanning Tree problem by designing the problem as a graph.
+
+**No Report**
+### **Final Grade 20/20.**
+
 ## [Artificial Intelligence - Ricochet Robots - Python](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Ricochet-Robots)
 
 This project is a program made in Python to solve the game [Ricochet-Robots](https://en.wikipedia.org/wiki/Ricochet_Robot) in the least amount of plays possible in the quickest time. The program consists of a program that builds a structure that will store the board and its' components (Robots and Walls), and will search the solution in a search tree using a given algorithm. To reach the best solution, various algorithms were tested and the results concluded that the best algorithm for this problem was the RBFS (Recursive Best First Search). However the project author's are aware that there can be a better solution using a better heuristic with more information, in which other algorithms would performe better over the RBFS, that has some limitations. For instance, with a quality heuristic the A* algorithm would perform better than the RBFS, having a low branching factor.
@@ -33,13 +50,6 @@ This project is a program made in C++ with the objective to calculate the maximu
 
 **[Report](https://github.com/joaomiguelcaldeira/my-portfolio/blob/master/Bachelor-Projects/Maximum-Flow-COVID-19/relatorio.pdf)**
 ### **Final Grade 19/20.**
-
-## [Introduction to Algorithms and Data Structures - Logistics System - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Logistics-System)
-
-This project is a program made in C with the objective to develop a logistics system that holds products and orders. The person interacts with the program through the command line giving certain commands to do specific actions. 
-
-**No Report**
-### **Final Grade 20/20.**
 
 ## [Introduction to Algorithms and Data Structures -  Friendly Football Games Data Management - C](https://github.com/joaomiguelcaldeira/my-portfolio/tree/master/Bachelor-Projects/Friendly%20Football%20Games%20Data%20Management)
 
