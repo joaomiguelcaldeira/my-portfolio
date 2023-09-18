@@ -1,0 +1,204 @@
+set A[1] to 1
+set A[2] to 2
+set A[3] to 3
+set A[4] to 4
+set A[5] to 5
+set A[6] to 6
+set A[7] to 7
+set A[8] to 8
+set A[9] to 9
+set A[10] to 10
+set A[11] to 11
+set A[12] to 12
+set A[13] to 13
+set A[14] to 14
+set A[15] to 15
+Meld A[15] A[14]
+Swap to A[14] A[15]
+Flipped a 0
+Meld A[-1] A[15]
+link A[15] as leftChild of A[14]
+14
+Meld A[13] A[14]
+Flipped a 1
+Meld A[-1] A[14]
+link A[14] as rightChild of A[13]
+13
+Meld A[12] A[13]
+Flipped a 0
+Meld A[-1] A[13]
+link A[13] as leftChild of A[12]
+12
+Meld A[11] A[12]
+Flipped a 0
+Meld A[-1] A[12]
+link A[12] as leftChild of A[11]
+11
+Meld A[10] A[11]
+Flipped a 1
+Meld A[-1] A[11]
+link A[11] as rightChild of A[10]
+10
+Meld A[9] A[10]
+Flipped a 1
+Meld A[-1] A[10]
+link A[10] as rightChild of A[9]
+9
+Meld A[8] A[9]
+Flipped a 0
+Meld A[-1] A[9]
+link A[9] as leftChild of A[8]
+8
+Meld A[7] A[8]
+Flipped a 0
+Meld A[-1] A[8]
+link A[8] as leftChild of A[7]
+7
+Meld A[6] A[7]
+Flipped a 0
+Meld A[-1] A[7]
+link A[7] as leftChild of A[6]
+6
+Meld A[5] A[6]
+Flipped a 0
+Meld A[-1] A[6]
+link A[6] as leftChild of A[5]
+5
+Meld A[4] A[5]
+Flipped a 1
+Meld A[-1] A[5]
+link A[5] as rightChild of A[4]
+4
+Meld A[3] A[4]
+Flipped a 1
+Meld A[-1] A[4]
+link A[4] as rightChild of A[3]
+3
+Meld A[2] A[3]
+Flipped a 0
+Meld A[-1] A[3]
+link A[3] as leftChild of A[2]
+2
+Meld A[1] A[2]
+Flipped a 1
+Meld A[-1] A[2]
+link A[2] as rightChild of A[1]
+1
+Meld A[0] A[1]
+Flipped a 1
+Meld A[-1] A[1]
+link A[1] as rightChild of A[0]
+0
+node: 0 v: 0 leftChild: -1 rightChild: 1 father: r -1
+node: 1 v: 1 leftChild: -1 rightChild: 2 father: r 0
+node: 2 v: 2 leftChild: 3 rightChild: -1 father: r 1
+node: 3 v: 3 leftChild: -1 rightChild: 4 father: l 2
+node: 4 v: 4 leftChild: -1 rightChild: 5 father: r 3
+node: 5 v: 5 leftChild: 6 rightChild: -1 father: r 4
+node: 6 v: 6 leftChild: 7 rightChild: -1 father: l 5
+node: 7 v: 7 leftChild: 8 rightChild: -1 father: l 6
+node: 8 v: 8 leftChild: 9 rightChild: -1 father: l 7
+node: 9 v: 9 leftChild: -1 rightChild: 10 father: l 8
+node: 10 v: 10 leftChild: -1 rightChild: 11 father: r 9
+node: 11 v: 11 leftChild: 12 rightChild: -1 father: r 10
+node: 12 v: 12 leftChild: 13 rightChild: -1 father: l 11
+node: 13 v: 13 leftChild: -1 rightChild: 14 father: l 12
+node: 14 v: 14 leftChild: 15 rightChild: -1 father: r 13
+node: 15 v: 15 leftChild: -1 rightChild: -1 father: l 14
+root A[15] is A[0]
+0
+extractMin A[15]
+root A[15] is A[0]
+1
+root A[15] is A[1]
+1
+extractMin A[15]
+root A[15] is A[1]
+2
+root A[15] is A[2]
+2
+extractMin A[15]
+root A[15] is A[2]
+3
+root A[15] is A[3]
+3
+extractMin A[15]
+root A[15] is A[3]
+4
+root A[15] is A[4]
+4
+extractMin A[15]
+root A[15] is A[4]
+5
+root A[15] is A[5]
+5
+extractMin A[15]
+root A[15] is A[5]
+6
+root A[15] is A[6]
+6
+extractMin A[15]
+root A[15] is A[6]
+7
+root A[15] is A[7]
+7
+extractMin A[15]
+root A[15] is A[7]
+8
+root A[15] is A[8]
+8
+extractMin A[15]
+root A[15] is A[8]
+9
+root A[15] is A[9]
+9
+extractMin A[15]
+root A[15] is A[9]
+10
+root A[15] is A[10]
+10
+extractMin A[15]
+root A[15] is A[10]
+11
+root A[15] is A[11]
+11
+extractMin A[15]
+root A[15] is A[11]
+12
+root A[15] is A[12]
+12
+extractMin A[15]
+root A[15] is A[12]
+13
+root A[15] is A[13]
+13
+extractMin A[15]
+root A[15] is A[13]
+14
+root A[15] is A[14]
+14
+extractMin A[15]
+root A[15] is A[14]
+15
+root A[15] is A[15]
+15
+extractMin A[15]
+root A[15] is A[15]
+15
+Final configuration:
+node: 0 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 1 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 2 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 3 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 4 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 5 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 6 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 7 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 8 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 9 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 10 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 11 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 12 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 13 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 14 v: 0 leftChild: -1 rightChild: -1 father: r -1
+node: 15 v: 0 leftChild: -1 rightChild: -1 father: r -1

@@ -1,0 +1,49 @@
+Letter T
+Leaf node: 2 head: 0 sdep: 11 child: -1 brother: -1 slink: -1
+Letter A
+Leaf node: 3 head: 1 sdep: 10 child: -1 brother: 2 slink: -1
+Letter C
+Leaf node: 4 head: 2 sdep: 9 child: -1 brother: 3 slink: -1
+Letter T
+Letter G
+Internal node: 5 head: 0 sdep: 1 child: 2 brother: -1 slink: -1
+Leaf node: 6 head: 3 sdep: 8 child: -1 brother: 2 slink: -1
+Leaf node: 7 head: 4 sdep: 7 child: -1 brother: 4 slink: -1
+Letter T
+Letter A
+Letter C
+Letter T
+Letter G
+Letter $
+Internal node: 8 head: 0 sdep: 5 child: 2 brother: -1 slink: -1
+Leaf node: 9 head: 5 sdep: 6 child: -1 brother: 2 slink: -1
+Internal node: 10 head: 1 sdep: 4 child: 3 brother: 5 slink: -1
+Leaf node: 11 head: 6 sdep: 5 child: -1 brother: 3 slink: -1
+Internal node: 12 head: 2 sdep: 3 child: 4 brother: 10 slink: -1
+Leaf node: 13 head: 7 sdep: 4 child: -1 brother: 4 slink: -1
+Internal node: 14 head: 3 sdep: 2 child: 6 brother: 8 slink: -1
+Leaf node: 15 head: 8 sdep: 3 child: -1 brother: 6 slink: -1
+Internal node: 16 head: 4 sdep: 1 child: 7 brother: 12 slink: -1
+Leaf node: 17 head: 9 sdep: 2 child: -1 brother: 7 slink: -1
+Leaf node: 18 head: 10 sdep: 1 child: -1 brother: 16 slink: -1
+ACTGT
+Final version
+node: 0 head: 0 sdep: 0 child: 18 brother: -1 slink: 1
+node: 1 head: 0 sdep: -1 child: 0 brother: -1 slink: -1
+node: 2 head: 0 sdep: 11 child: -1 brother: -1 slink: -1
+node: 3 head: 1 sdep: 10 child: -1 brother: -1 slink: -1
+node: 4 head: 2 sdep: 9 child: -1 brother: -1 slink: -1
+node: 5 head: 0 sdep: 1 child: 14 brother: -1 slink: 0
+node: 6 head: 3 sdep: 8 child: -1 brother: -1 slink: -1
+node: 7 head: 4 sdep: 7 child: -1 brother: -1 slink: -1
+node: 8 head: 0 sdep: 5 child: 9 brother: -1 slink: 10
+node: 9 head: 5 sdep: 6 child: -1 brother: 2 slink: -1
+node: 10 head: 1 sdep: 4 child: 11 brother: 5 slink: 12
+node: 11 head: 6 sdep: 5 child: -1 brother: 3 slink: -1
+node: 12 head: 2 sdep: 3 child: 13 brother: 10 slink: 14
+node: 13 head: 7 sdep: 4 child: -1 brother: 4 slink: -1
+node: 14 head: 3 sdep: 2 child: 15 brother: 8 slink: 16
+node: 15 head: 8 sdep: 3 child: -1 brother: 6 slink: -1
+node: 16 head: 4 sdep: 1 child: 17 brother: 12 slink: 0
+node: 17 head: 9 sdep: 2 child: -1 brother: 7 slink: -1
+node: 18 head: 10 sdep: 1 child: -1 brother: 16 slink: -1

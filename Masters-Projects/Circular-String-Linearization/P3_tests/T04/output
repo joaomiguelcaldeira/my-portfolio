@@ -1,0 +1,83 @@
+Letter T
+Leaf node: 2 head: 0 sdep: 17 child: -1 brother: -1 slink: -1
+Letter A
+Leaf node: 3 head: 1 sdep: 16 child: -1 brother: 2 slink: -1
+Letter T
+Letter A
+Letter T
+Letter A
+Letter T
+Letter A
+Letter T
+Letter A
+Letter T
+Letter A
+Letter T
+Letter A
+Letter T
+Letter A
+Letter $
+Internal node: 4 head: 0 sdep: 14 child: 2 brother: -1 slink: -1
+Leaf node: 5 head: 2 sdep: 15 child: -1 brother: 2 slink: -1
+Internal node: 6 head: 1 sdep: 13 child: 3 brother: 4 slink: -1
+Leaf node: 7 head: 3 sdep: 14 child: -1 brother: 3 slink: -1
+Internal node: 8 head: 0 sdep: 12 child: 4 brother: -1 slink: -1
+Leaf node: 9 head: 4 sdep: 13 child: -1 brother: 4 slink: -1
+Internal node: 10 head: 1 sdep: 11 child: 6 brother: 8 slink: -1
+Leaf node: 11 head: 5 sdep: 12 child: -1 brother: 6 slink: -1
+Internal node: 12 head: 0 sdep: 10 child: 8 brother: -1 slink: -1
+Leaf node: 13 head: 6 sdep: 11 child: -1 brother: 8 slink: -1
+Internal node: 14 head: 1 sdep: 9 child: 10 brother: 12 slink: -1
+Leaf node: 15 head: 7 sdep: 10 child: -1 brother: 10 slink: -1
+Internal node: 16 head: 0 sdep: 8 child: 12 brother: -1 slink: -1
+Leaf node: 17 head: 8 sdep: 9 child: -1 brother: 12 slink: -1
+Internal node: 18 head: 1 sdep: 7 child: 14 brother: 16 slink: -1
+Leaf node: 19 head: 9 sdep: 8 child: -1 brother: 14 slink: -1
+Internal node: 20 head: 0 sdep: 6 child: 16 brother: -1 slink: -1
+Leaf node: 21 head: 10 sdep: 7 child: -1 brother: 16 slink: -1
+Internal node: 22 head: 1 sdep: 5 child: 18 brother: 20 slink: -1
+Leaf node: 23 head: 11 sdep: 6 child: -1 brother: 18 slink: -1
+Internal node: 24 head: 0 sdep: 4 child: 20 brother: -1 slink: -1
+Leaf node: 25 head: 12 sdep: 5 child: -1 brother: 20 slink: -1
+Internal node: 26 head: 1 sdep: 3 child: 22 brother: 24 slink: -1
+Leaf node: 27 head: 13 sdep: 4 child: -1 brother: 22 slink: -1
+Internal node: 28 head: 0 sdep: 2 child: 24 brother: -1 slink: -1
+Leaf node: 29 head: 14 sdep: 3 child: -1 brother: 24 slink: -1
+Internal node: 30 head: 1 sdep: 1 child: 26 brother: 28 slink: -1
+Leaf node: 31 head: 15 sdep: 2 child: -1 brother: 26 slink: -1
+Leaf node: 32 head: 16 sdep: 1 child: -1 brother: 30 slink: -1
+ATATATAT
+Final version
+node: 0 head: 0 sdep: 0 child: 32 brother: -1 slink: 1
+node: 1 head: 0 sdep: -1 child: 0 brother: -1 slink: -1
+node: 2 head: 0 sdep: 17 child: -1 brother: -1 slink: -1
+node: 3 head: 1 sdep: 16 child: -1 brother: -1 slink: -1
+node: 4 head: 0 sdep: 14 child: 5 brother: -1 slink: 6
+node: 5 head: 2 sdep: 15 child: -1 brother: 2 slink: -1
+node: 6 head: 1 sdep: 13 child: 7 brother: -1 slink: 8
+node: 7 head: 3 sdep: 14 child: -1 brother: 3 slink: -1
+node: 8 head: 0 sdep: 12 child: 9 brother: -1 slink: 10
+node: 9 head: 4 sdep: 13 child: -1 brother: 4 slink: -1
+node: 10 head: 1 sdep: 11 child: 11 brother: -1 slink: 12
+node: 11 head: 5 sdep: 12 child: -1 brother: 6 slink: -1
+node: 12 head: 0 sdep: 10 child: 13 brother: -1 slink: 14
+node: 13 head: 6 sdep: 11 child: -1 brother: 8 slink: -1
+node: 14 head: 1 sdep: 9 child: 15 brother: -1 slink: 16
+node: 15 head: 7 sdep: 10 child: -1 brother: 10 slink: -1
+node: 16 head: 0 sdep: 8 child: 17 brother: -1 slink: 18
+node: 17 head: 8 sdep: 9 child: -1 brother: 12 slink: -1
+node: 18 head: 1 sdep: 7 child: 19 brother: -1 slink: 20
+node: 19 head: 9 sdep: 8 child: -1 brother: 14 slink: -1
+node: 20 head: 0 sdep: 6 child: 21 brother: -1 slink: 22
+node: 21 head: 10 sdep: 7 child: -1 brother: 16 slink: -1
+node: 22 head: 1 sdep: 5 child: 23 brother: -1 slink: 24
+node: 23 head: 11 sdep: 6 child: -1 brother: 18 slink: -1
+node: 24 head: 0 sdep: 4 child: 25 brother: -1 slink: 26
+node: 25 head: 12 sdep: 5 child: -1 brother: 20 slink: -1
+node: 26 head: 1 sdep: 3 child: 27 brother: -1 slink: 28
+node: 27 head: 13 sdep: 4 child: -1 brother: 22 slink: -1
+node: 28 head: 0 sdep: 2 child: 29 brother: -1 slink: 30
+node: 29 head: 14 sdep: 3 child: -1 brother: 24 slink: -1
+node: 30 head: 1 sdep: 1 child: 31 brother: 28 slink: 0
+node: 31 head: 15 sdep: 2 child: -1 brother: 26 slink: -1
+node: 32 head: 16 sdep: 1 child: -1 brother: 30 slink: -1
